@@ -17,7 +17,7 @@ public protocol StoryboardInitializable {
 }
 
 /// Set defaults
-extension StoryboardInitializable where Self: UIViewController {
+public extension StoryboardInitializable where Self: UIViewController {
     
     // MARK: - Default implementation
     
