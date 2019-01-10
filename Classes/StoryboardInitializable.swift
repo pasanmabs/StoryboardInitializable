@@ -9,7 +9,7 @@
 import UIKit
 
 /// Create a StoryboardInitializable protocol
-protocol StoryboardInitializable {
+public protocol StoryboardInitializable {
     
     /// Name of the storyboard file to load
     static var storyboardName: String { get }
