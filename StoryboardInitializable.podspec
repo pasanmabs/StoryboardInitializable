@@ -1,10 +1,16 @@
 Pod::Spec.new do |s|
   s.name             = 'StoryboardInitializable'
-  s.version          = '0.1.2'
-  s.summary          = 'By far the easiest way to init a storyboard.'
+  s.version          = '0.1.3'
+  s.summary          = 'An easy way to init a storyboard.'
  
   s.description      = <<-DESC
-Easily initalise a view controller from a storyboard.
+A great advantage of using a storyboard with multiple views in it is that you can get a wholistic view of the app along with the navigation flow, but this has a major downside if you work with a team. 
+
+- Source Control - endless merge conflicts on the storyboard, if each screen was kept seperate the number of conflicts would reduce. 
+- Navigation - if the storyboard has multiple screens with navigation within the storyboard can become difficult or you might end up changing something unintentionally.
+-  Storyboard Id - using storyboard ids can be error prone or lead to boilerplate code
+
+Solution - Use a single storyboard per screen :)
                        DESC
  
   s.homepage         = 'https://github.com/pasanmabs/StoryboardInitializable'
